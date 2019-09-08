@@ -13,8 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SmsUtils {
-    private static final String accessKeyId = "LTAI4FczsHmAboWkAF7CZDYx";
-    private static final String accessKeySecret = "3tXogn5EIU8AClrISxU7PW4wf7eI5Q";
+    private static final String accessKeyId = "aaaaaa";
+    private static final String accessKeySecret = "bbbbb";
     public static void sendMsg(String templateCode,String signName,String mobile,String code) throws ClientException {
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", accessKeyId, accessKeySecret);
         IAcsClient client = new DefaultAcsClient(profile);
